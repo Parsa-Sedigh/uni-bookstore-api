@@ -6,8 +6,8 @@ export class UsersService {
     {
       userId: 1,
       username: 'parsa',
-      password: '123456'
-    }
+      password: '123456',
+    },
   ];
 
   async findOne(username: string) {
